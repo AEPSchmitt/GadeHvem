@@ -68,6 +68,7 @@ const Grid = () => {
       <button className="newgame" onClick={() => randomizeColors()} style={{ marginTop: '20px' }}>
         Nyt Spil
       </button>
+      <a className="rules" href="https://papmajor.dk/wp-content/uploads/codenames-rules-dk.pdf" target='_blank'>Codenames Regler</a>
     </div>
   );
 };
